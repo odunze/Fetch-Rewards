@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4C6158D725C4F7730071B144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158D625C4F7730071B144 /* AppDelegate.swift */; };
-		4C6158D925C4F7730071B144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158D825C4F7730071B144 /* SceneDelegate.swift */; };
-		4C6158DB25C4F7730071B144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158DA25C4F7730071B144 /* ViewController.swift */; };
-		4C6158DE25C4F7730071B144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6158DC25C4F7730071B144 /* Main.storyboard */; };
 		4C6158E025C4F7780071B144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6158DF25C4F7780071B144 /* Assets.xcassets */; };
 		4C6158E325C4F7780071B144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6158E125C4F7780071B144 /* LaunchScreen.storyboard */; };
+		4C6158F225C4F8240071B144 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158F125C4F8240071B144 /* Theme.swift */; };
+		4C6158F525C4F8420071B144 /* SeatGeekAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158F425C4F8420071B144 /* SeatGeekAPI.swift */; };
+		4C6158F825C4F8560071B144 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158F725C4F8560071B144 /* EventsModel.swift */; };
+		4C6158FB25C4F86E0071B144 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158FA25C4F86E0071B144 /* EventsViewModel.swift */; };
+		4C6158FE25C4F8890071B144 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6158FD25C4F8890071B144 /* EventsViewController.swift */; };
+		4C61590125C4F8A40071B144 /* EventsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C61590025C4F8A40071B144 /* EventsVC+TableView.swift */; };
+		4C61590425C4F8B60071B144 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C61590325C4F8B60071B144 /* EventCell.swift */; };
+		4C61590725C4F8CD0071B144 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C61590625C4F8CD0071B144 /* EventDetailViewController.swift */; };
+		4C61590A25C4F8E50071B144 /* EventDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C61590925C4F8E50071B144 /* EventDetailHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C6158D325C4F7730071B144 /* Fetch Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6158D625C4F7730071B144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C6158D825C4F7730071B144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C6158DA25C4F7730071B144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C6158DD25C4F7730071B144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C6158DF25C4F7780071B144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C6158E225C4F7780071B144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6158E425C4F7780071B144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6158F125C4F8240071B144 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4C6158F425C4F8420071B144 /* SeatGeekAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekAPI.swift; sourceTree = "<group>"; };
+		4C6158F725C4F8560071B144 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
+		4C6158FA25C4F86E0071B144 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		4C6158FD25C4F8890071B144 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		4C61590025C4F8A40071B144 /* EventsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventsVC+TableView.swift"; sourceTree = "<group>"; };
+		4C61590325C4F8B60071B144 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		4C61590625C4F8CD0071B144 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		4C61590925C4F8E50071B144 /* EventDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +69,44 @@
 			isa = PBXGroup;
 			children = (
 				4C6158D625C4F7730071B144 /* AppDelegate.swift */,
-				4C6158D825C4F7730071B144 /* SceneDelegate.swift */,
-				4C6158DA25C4F7730071B144 /* ViewController.swift */,
-				4C6158DC25C4F7730071B144 /* Main.storyboard */,
+				4C6158F125C4F8240071B144 /* Theme.swift */,
+				4C6158F425C4F8420071B144 /* SeatGeekAPI.swift */,
+				4C6158EE25C4F7E50071B144 /* Model */,
+				4C6158EF25C4F7EF0071B144 /* Events */,
+				4C6158F025C4F7FD0071B144 /* Event Detail */,
 				4C6158DF25C4F7780071B144 /* Assets.xcassets */,
 				4C6158E125C4F7780071B144 /* LaunchScreen.storyboard */,
 				4C6158E425C4F7780071B144 /* Info.plist */,
 			);
 			path = "Fetch Rewards";
+			sourceTree = "<group>";
+		};
+		4C6158EE25C4F7E50071B144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C6158F725C4F8560071B144 /* EventsModel.swift */,
+				4C6158FA25C4F86E0071B144 /* EventsViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C6158EF25C4F7EF0071B144 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4C6158FD25C4F8890071B144 /* EventsViewController.swift */,
+				4C61590025C4F8A40071B144 /* EventsVC+TableView.swift */,
+				4C61590325C4F8B60071B144 /* EventCell.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4C6158F025C4F7FD0071B144 /* Event Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4C61590625C4F8CD0071B144 /* EventDetailViewController.swift */,
+				4C61590925C4F8E50071B144 /* EventDetailHeader.swift */,
+			);
+			path = "Event Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +168,6 @@
 			files = (
 				4C6158E325C4F7780071B144 /* LaunchScreen.storyboard in Resources */,
 				4C6158E025C4F7780071B144 /* Assets.xcassets in Resources */,
-				4C6158DE25C4F7730071B144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +178,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6158DB25C4F7730071B144 /* ViewController.swift in Sources */,
+				4C61590125C4F8A40071B144 /* EventsVC+TableView.swift in Sources */,
+				4C6158FB25C4F86E0071B144 /* EventsViewModel.swift in Sources */,
 				4C6158D725C4F7730071B144 /* AppDelegate.swift in Sources */,
-				4C6158D925C4F7730071B144 /* SceneDelegate.swift in Sources */,
+				4C61590725C4F8CD0071B144 /* EventDetailViewController.swift in Sources */,
+				4C6158F225C4F8240071B144 /* Theme.swift in Sources */,
+				4C61590425C4F8B60071B144 /* EventCell.swift in Sources */,
+				4C6158F825C4F8560071B144 /* EventsModel.swift in Sources */,
+				4C6158F525C4F8420071B144 /* SeatGeekAPI.swift in Sources */,
+				4C61590A25C4F8E50071B144 /* EventDetailHeader.swift in Sources */,
+				4C6158FE25C4F8890071B144 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C6158DC25C4F7730071B144 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C6158DD25C4F7730071B144 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C6158E125C4F7780071B144 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
